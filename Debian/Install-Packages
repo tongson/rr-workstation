@@ -1,0 +1,4 @@
+debian.upgrade
+/usr/sbin/locale-gen
+debian.aptget install tmux dnsutils inetutils-ping chrony curl ripgrep neovim awscli sudo
+debian.aptget install podman

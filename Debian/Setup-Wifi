@@ -1,0 +1,6 @@
+debian.aptget update
+debian.aptget install firmware-iwlwifi
+debian.aptget install dbus
+debian.aptget install iwd
+systemctl enable --now iwd
+systemctl enable --now systemd-networkd

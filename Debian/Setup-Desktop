@@ -1,0 +1,6 @@
+debian.aptget install weston fonts-go fonts-roboto-hinted fonts-roboto-slab i965-va-driver libdrm-intel1 libgl1-mesa-dri
+debian.aptget install chromium firefox-esr xwayland lame flac chromium-sandbox
+usermod -a -G weston-launch ed
+chown root /usr/bin/weston-launch
+chmod +s /usr/bin/weston-launch
+chown -R ed:ed /home/ed
